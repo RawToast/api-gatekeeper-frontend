@@ -5,6 +5,8 @@ POST        /login                                 controllers.AccountController
 
 GET         /logout                                controllers.AccountController.logout
 
+GET         /stride                                controllers.DashboardController.strideDashboardPage
+
 GET         /dashboard                             controllers.DashboardController.dashboardPage
 GET         /review                                controllers.DashboardController.reviewPage(id: String)
 

@@ -27,7 +27,8 @@ private object AppDependencies {
     "uk.gov.hmrc" %% "json-encryption" % "3.1.0",
     "uk.gov.hmrc" %% "play-health" % "2.0.0",
     "uk.gov.hmrc" %% "govuk-template" % "5.0.0",
-    "uk.gov.hmrc" %% "play-ui" % "6.0.0"
+    "uk.gov.hmrc" %% "play-ui" % "6.0.0",
+    "uk.gov.hmrc" %% "play-auth" % "0.4.0"
   )
 
   abstract class TestDependencies(scope: String) {
